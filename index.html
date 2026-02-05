@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styling/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <title>Best Beginners</title>
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+      <div class="logo"><a href="./index.html"><img src="./styling/badge.png" alt="badge" style="padding-left: 5px;" height="100px"></a></div>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="progam.html">Program</a></li>
+          <li><a href="admission.html">Admission</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+        <div class="mobile-toggle">☰</div>
+      </nav> 
+    </div>
+    </header>
+    
+    <main>
+
+                <!-- Hero -->
+        <section class="hero">
+        <img src="./styling/img4.jpeg" alt="Hero image" class="hero-img">
+        </section>
+        <!-- are encouraged to learn, discover, and build confidence -->
+        <section class="intro">
+            <h1><span style="color: rgb(10, 130, 182);"> Welcome To </span> <span style="color: rgb(209, 4, 209); padding-left: 5px;">Best</span> <span style="color: rgb(15, 136, 13);">Beginners</span></h1>
+            <div class="paragraph">
+                <p>We provide a warm, secure, and caring space where children <span id="slogan"><i>PLAY, LEARN & GROW</i></span>. </p>
+                <p>Our focus is on delivering high-quality early childhood care and education that supports each child’s emotional, social, and developmental growth in a positive and engaging environment.</p>
+
+                <a href="tel:+27787987096" class="btn floating-call-btn" style="background-color: rgb(10, 130, 182);"> Call Us</a>
+                <div class="stickmen">
+                </div>
+            </div>
+        </section>
+
+<section class="programs py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Our Programs</h2>
+
+        <!-- Carousel Container (mobile) + Grid (desktop) -->
+        <div class="programs-carousel-container">
+            <div id="programs-carousel" class="carousel-track">
+                <!-- Program Card 1 -->
+                <div class="program-card carousel-item">
+                    <img src="./styling/img-3.jpg" alt="Infant Care" class="card-img">
+                    <div class="card-body">
+                        <h5 class="card-title">Infant Care<br>(0 – 2 years)</h5>
+                        <p class="card-text">A nurturing space with sensory play, gentle routines, and lots of cuddles to support early development.</p>
+                    </div>
+                     <div class="card-details">
+                    <span class="detail-item">
+                        <img src="https://www.shutterstock.com/image-illustration/clock-icon-simple-flat-style-260nw-2246371775.jpg" alt="Clock icon" class="icon">
+                        06:00 - 18:00
+                    </span>
+                    <span class="detail-item">
+                        R1 500/month
+                    </span>
+                </div>
+                </div>
+
+                <!-- Program Card 2 -->
+                <div class="program-card carousel-item">
+                    <img src="./styling/img10.jpeg" alt="Toddler Program" class="card-img">
+                    <div class="card-body">
+                        <h5 class="card-title">Toddler Program<br>(2 – 5 years)</h5>
+                        <p class="card-text">Hands-on, play-based learning through music, art, social play, and early literacy and math to build confidence and curiosity.</p>
+                    </div>
+                    <div class="card-details">
+                    <span class="detail-item">
+                        <img src="https://www.shutterstock.com/image-illustration/clock-icon-simple-flat-style-260nw-2246371775.jpg" alt="Clock icon" class="icon">
+                        06:00 - 18:00
+                    </span>
+                    <span class="detail-item">
+                        R1 300/month
+                    </span>
+                </div>
+                </div>
+
+                <!-- Program Card 3 -->
+                <div class="program-card carousel-item">
+                    <img src="./styling/img20.jpeg" alt="Aftercare Program" class="card-img">
+                    <div class="card-body">
+                        <h5 class="card-title">Aftercare Program<br></h5>
+                        <p class="card-text">Aftercare with supervised play, including lunch and a holiday play club.</p>
+                    </div>
+                     <div class="card-details">
+                    <span class="detail-item">
+                        <img src="https://www.shutterstock.com/image-illustration/clock-icon-simple-flat-style-260nw-2246371775.jpg" alt="Clock icon" class="icon">
+                        After-school - 18:00
+                    </span>
+                    <span class="detail-item">
+                        R800/month
+                    </span>
+                </div>
+            </div>
+
+            <!-- Carousel Controls (visible only on mobile) -->
+            <div class="carousel-controls">
+                <button class="carousel-btn prev-btn" onclick="prevProgramSlide()">‹</button>
+                <button class="carousel-btn next-btn" onclick="nextProgramSlide()">›</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="program-btn">
+        <a href="./progam.html">Get More Info</a>
+    </div>
+</section>
+
+            <section class="admission py-5">
+    <div class="container text-center">
+        <h2 class="section-title" style="text-align: center; color: rgb(249, 186, 15);">The Programs Include</h2>
+
+        <!-- Three Columns Layout (Grid on desktop, stack on mobile) -->
+<div class="tuition-grid">
+
+    <!-- Card 1: Strategy Games -->
+    <div class="tuition-card">
+        <img src="./styling/img9.jpeg" alt="Strategy Games" class="card-image">
+        <h3 class="card-heading">Strategy Games</h3>
+        <p class="card-desc">
+            Fun, age-appropriate games that develop problem-solving, critical thinking, and teamwork skills.
+        </p>
+    </div>
+
+    <!-- Card 2: Arts & Crafts -->
+    <div class="tuition-card">
+        <img src="./styling/img17.jpeg" alt="Arts and Crafts" class="card-image">
+        <h3 class="card-heading">Arts & Crafts</h3>
+        <p class="card-desc">
+            Creative activities that encourage self-expression, fine motor skills, and imagination.
+        </p>
+    </div>
+
+    <!-- Card 3: Dance & Music -->
+    <div class="tuition-card">
+        <img src="./styling/img5.jpeg" alt="Dance and Music" class="card-image">
+        <h3 class="card-heading">Dance & Music</h3>
+        <p class="card-desc">
+            Movement and music sessions that build confidence, rhythm, coordination, and joy.
+        </p>
+    </div>
+
+    <!-- Card 4: Swimming -->
+    <div class="tuition-card">
+        <img src="./styling/img16.jpeg" alt="Swimming" class="card-image">
+        <h3 class="card-heading">Swimming</h3>
+        <p class="card-desc">
+            Supervised water activities focused on safety, confidence, and basic swimming skills.
+        </p>
+    </div>
+
+    <!-- Card 5: Robotics -->
+    <div class="tuition-card">
+        <img src="./styling/img15.jpeg" alt="Robotics" class="card-image">
+        <h3 class="card-heading">Robotics</h3>
+        <p class="card-desc">
+            Introductory robotics and coding concepts that spark curiosity and logical thinking.
+        </p>
+    </div>
+
+</div>
+
+
+        <p class="tuition-note">
+            We offer flexible care options to meet the needs of our families, with admission available for children ages 0 to 5 years. <a href="admission.html">Let's Enroll.</a>
+        </p>
+    </div>
+</section>
+
+
+    <section class="about py-5">
+    <div class="container">
+        <div class="about-grid">
+            <!-- Image Side -->
+            <div class="about-image-wrapper">
+                <img src="./styling/img6.jpeg" alt="Happy child learning and reading at Little Tots" class="about-image">
+                
+                <!-- Overlay Text on Image (Desktop only) -->
+                <div class="image-overlay">
+                    <h3 class="overlay-title"><span id="part-one">Small steps</span>  <span id="part-two">lead to big</span>  <span id="part-three">discoveries.</span> </h3>
+                </div>
+            </div>
+
+            <!-- Text Side -->
+            <div class="about-text">
+                <p class="section-subtitle">VISIT OUR DAYCARE</p>
+                <h2 class="section-title">Our Mission</h2>
+                <p class="mission-desc">
+                        Our mission is to create a warm, secure, and caring environment where children are encouraged to learn, explore, and reach their full potential.
+                        We are committed to delivering high-quality early childhood care and education that nurtures each child’s emotional, social, and developmental growth
+                        through engaging, play-based learning guided by dedicated and skilled educators.
+                </p>
+                <a href="about.html" class="btn btn-outline">Know more about us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+    <footer>
+        <hr>
+        <div class="footer-container">
+            
+            <div class="branch"> 
+                <h3>Visit Us</h3>
+                <p>10103 Moldavia Street,<br>
+                Cosmo City,<br>
+                Roodepoort,<br>
+                2188</p>
+                <a href="tel:+27787987096">+27 78 798 7096</a></p>
+            </div>
+
+            <!-- Operating Hours -->
+            <div class="branch">
+                <h3>Operating Hours</h3>
+                <p>Monday – Sunday: 06:00 – 18:00<br>
+            </div>
+        </div>
+
+        <!-- Social Icons (placed under Lonehill for desktop, but centered on mobile) -->
+        <div class="social-icons">
+        
+            <a href="https://www.facebook.com/profile.php?id=100063744950612" >
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <!-- <a href="https://www.instagram.com/explore/locations/102447315069369/" >
+                <i class="fab fa-instagram"></i>
+            </a> -->
+        </div>
+        <hr>
+        <p class="copyright"> © 2026 Best Beginners Preschool. All rights reserved.</p>
+        
+    </footer>
+
+    <a href="https://wa.me/27787987096" 
+   class="whatsapp-float" 
+   target="_blank" 
+   rel="noopener noreferrer">
+    <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="./index.js"></script>
+</body>
+</html>
