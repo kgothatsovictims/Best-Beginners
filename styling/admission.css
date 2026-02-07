@@ -263,6 +263,20 @@ header {
   font-weight: bold;
 }
 
+.email-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #0072ce; /* blue button */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.email-btn:hover {
+  background-color: #005bb5; /* darker blue on hover */
+}
 
 .scissors{
     background-image: url('./scissors.png');
@@ -551,4 +565,5 @@ header {
 
     
 }
+
 
